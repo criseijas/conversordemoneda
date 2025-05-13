@@ -14,6 +14,7 @@ Aplicación de consola en Java que permite convertir entre monedas internacional
 - ✅ Validación de entradas del usuario.
 - ✅ Consulta de tasas de cambio actualizadas mediante API externa.
 - ✅ Interfaz de consola amigable y clara.
+- ✅ Salida en consola con colores para mejorar la experiencia del usuario.
 
 ---
 
@@ -45,6 +46,17 @@ Ingrese la cantidad:
 > 100
 
 100 USD equivale a: 93000 ARS
+
+---
+
+## 🎨 Colores en la Consola
+
+El resultado de cada conversión se muestra en **color verde** e incluye un emoji ✅ para una mejor experiencia visual.
+
+---
+
+## 📄 Licencia
+Este proyecto es de uso libre para fines educativos o personales.
 
 ---
 

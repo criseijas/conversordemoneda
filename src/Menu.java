@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Menu {
 
+    public static final String GREEN = "\u001B[32m";
+    public static final String RESET = "\u001B[0m";
+
     private final String monedasDisponibles = """
                 USD --- Dólar Estadounidense
                 ARS --- Peso Argentino
@@ -71,7 +74,7 @@ public class Menu {
     public Double resultadoConversion(String monedaBase, String monedaFinal, double cantidad, Double tasa) {
         Double resultado = cantidad * tasa;
         System.out.println("***********************************************");
-        System.out.println(cantidad + " " + monedaBase + " equivale a: " + resultado + " " + monedaFinal);
+        System.out.println(GREEN + "✅ " + cantidad + " " + monedaBase + " equivale a: " + resultado + " " + monedaFinal + RESET);
         System.out.println("***********************************************");
         return resultado;
     }
